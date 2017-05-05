@@ -626,7 +626,7 @@
 
 					
 					var getFictionInfo = function(callback) {
-					$.get("/data/chapter.json", function(data) {
+					$.get("data/chapter.json", function(data) {
 					Title = data.title;
 					$('#nav_title').html('返回书架');
 					window.ChaptersData = data.chapters;
